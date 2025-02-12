@@ -67,7 +67,7 @@ use: &use
   type: url-test
   use:
     - 极速机场
-    - 超实惠机场
+   # - 超实惠机场
     # - 本地配置
 
 # 订阅链接
@@ -82,10 +82,10 @@ proxy-providers:
     # override:
       # additional-prefix: "[极速机场]"
 
-  超实惠机场:
-    <<: *p
+ # 超实惠机场:
+   # <<: *p
     # path: ./proxy_provider/超实惠机场.yaml
-    url: "https://cshjc.xz61.cn/api/v1/client/subscribe?token=996e41d1584d27a11b7610d0bda5ed45"
+   # url: "https://cshjc.xz61.cn/api/v1/client/subscribe?token=996e41d1584d27a11b7610d0bda5ed45"
     # 如需要为该订阅组节点添加前缀，取消下面两行注释
     # override:
       # additional-prefix: "[超实惠机场]"
